@@ -19,7 +19,7 @@ mocksdk.auth().autoFlush();
 mocksdk.auth().createUser({
   uid: '123',
   email: 'test@test.com',
-  password 'abc123'
+  password: 'abc123'
 });
 
 mocksdk.auth().getUser('123').then(function(user) {
